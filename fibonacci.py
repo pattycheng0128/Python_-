@@ -1,0 +1,11 @@
+# 費氏數列(Fibonacci)
+# 不好的寫法-2的n次方, 遞迴 recursion
+
+def fib(n):
+    if n == 0 or n == 1:
+        return n
+    else:
+        return fib(n-1) + fib(n-2)
+
+
+print(fib(5))
