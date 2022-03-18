@@ -16,7 +16,7 @@ def two_sum(nums, target):
         current = target - nums[i]
         # 確認 current 是否在 hashmap字典內
         if current in hashmap:
-            return[i, hashmap[current]]
+            return[hashmap[current], i]
         # 不在 hashmap字典內, 就加到字典內(key是array的數值, i 是 index)
         hashmap[nums[i]] = i
 
