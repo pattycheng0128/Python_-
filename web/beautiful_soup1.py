@@ -1,4 +1,3 @@
-from traceback import print_tb
 import requests
 from bs4 import BeautifulSoup
 
